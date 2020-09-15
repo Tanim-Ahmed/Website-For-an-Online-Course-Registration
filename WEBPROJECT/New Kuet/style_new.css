@@ -1,0 +1,161 @@
+	body{ background: url(..//img/bg.gif);  padding:0px; margin:0px; font-family:Verdana;}		
+		div.main{ width:960px; min-height:650px; background:#FFF;  box-shadow:0px 0px 20px #000000;  padding:0px 30px 30px 30px; }
+		div.logo{ height: 180px; text-align: left;width: 960px; font-size:28px; color:#03C; background:url(..//img/size.PNG)}
+		div.jb_logo{ float:left; margin-top:20px; margin-left:20px; background:url(..//img/opa.png); min-width:500px;}
+		div.jb_logo img{ width:126px; height:126px; padding:12px; float:left;}
+		div.ins_name{ float:left; font-size:21px; color:#ffffff; text-align:right; margin:0px 0px; line-height:125px; vertical-align:middle; margin-right:20px;}
+		div.date{ float:left; width:280px; line-height:40px; text-align:left; font-size:12px; padding-bottom:11px; }
+		div.time{ float:left; width:120px; line-height:40px; text-align:left; font-size:12px;}
+		div.menu { margin-top:-10px; border-top:1px solid #CCC; padding:10px 0px 10px 0px; z-index:999; }
+		div.menu ul {padding:0px; margin:0px; position:absolute;}
+		div.menu ul li{ list-style:none; float:left;  border-right:1px solid #CCC; width:136px; cursor:pointer;height:20px; padding-bottom:17px; padding-top:-2px; font-size:16px;}
+		div.menu ul li:hover{ color:#FFF;}
+		div.menu ul li a{ color:#000; text-decoration:none;line-height:37px;}
+		div.border { margin-top:21px; padding:10px 0px 10px 0px; }
+		div.border ul {padding:0px; margin:0px; background:#F00;}
+		div.border ul li{ list-style:none; float:left; width:134px; border-right:3px solid #ffffff; height:3px;}
+		div.sub_menu{ width:134px;  min-height:1px; float:left; margin-right:3px; display:none; position:absolute; top:-6px;}
+		div.sub_menu ul{ margin:0px; padding:0px;}
+		div.sub_menu ul li{ list-style:none; width:100%; padding-bottom:10px; padding-top:10px; vertical-align:middle; font-size:15px; background:#FFF;}
+		div.sub_menu ul li a{ text-decoration:none; color:#000;}
+		div#sub_menu_1{left:0px;}
+		div#sub_menu_1 ul li{border-bottom:3px solid #F69810;}
+		div#sub_menu_1 ul li:hover{ background:#F69810;}
+		div#sub_menu_2{left:137px;}
+		div#sub_menu_2 ul li{border-bottom:3px solid #65B621;}
+		div#sub_menu_2 ul li:hover{ background:#65B621;}
+		div#sub_menu_3{left:274px;}
+		div#sub_menu_3 ul li{border-bottom:3px solid #F96311;}
+		div#sub_menu_3 ul li:hover{ background:#F96311;}
+		div#sub_menu_4{left:411px;}
+		div#sub_menu_4 ul li{border-bottom:3px solid #1E93C1;}
+		div#sub_menu_4 ul li:hover{ background:#1E93C1;}
+		div#sub_menu_5{left:548px;}
+		div#sub_menu_5 ul li{border-bottom:3px solid #F50E47;}
+		div#sub_menu_5 ul li:hover{ background:#F50E47;}
+		div#sub_menu_6{left:685px;}
+		div#sub_menu_6 ul li{border-bottom:3px solid #F69810;}
+		div#sub_menu_6 ul li:hover{ background:#F69810;}
+		div#sub_menu_7{left:822px;}
+		div#sub_menu_7 ul li{border-bottom:3px solid #F7DF15;}
+		div#sub_menu_7 ul li:hover{ background:#F7DF15;}
+		div.sub_menu ul li:hover{ color:#FFF;}
+		
+		div.body{ margin-top:10px;}
+		div.body_left{ float:right; width:650px;}
+		div.body_right{float:left; width:290px; margin-top:-10px;}
+		div.notic{ height:250px; border:1px solid #CCC; text-align:justify; padding:21px; font-size:15px; overflow:hidden;}
+		div.news{ height:50px; border:1px solid #CCC;  line-height:50px; vertical-align:middle; text-align:left; text-shadow: 1px 1px 0 #666666; }
+		div.news_title_css{color:#79C227; font-size:30px; font-weight:bold; text-shadow:1px 1px 1px #916644, 2px 2px 1px #916644, 3px 3px 1px #916644;}
+		div.news_text_css {color: red;font-size: 20px;font-weight: bold;}
+		div.news_body{ background:url(..//img/1344450139_notification_warning.png) no-repeat scroll -43px -32px transparent; height:200px;}
+		div.news_title{ text-align:right; float:right; width:70px; padding:5px; margin:10px;}
+		div.botton{ width:160px; height:77px; float:left; margin-bottom:10px; margin-top:10px;border:1px solid #CCC;}
+		div.button:hover { background:red;}
+		div.search_gro{ border:1px solid #CCC; padding:7px 7px 7px 7px; text-align:left;}
+		.search{ width:210px;}
+		div.butt{ float:left; width:140px;}
+		div.butt_up{ height:137px; margin-top:10px; border:1px solid #CCC;}
+		div.butt_down{ height:40px; margin-top:1px; border:1px solid #CCC; line-height:40px; vertical-align:middle;}
+		
+		img.img{ width:60px; height:56px; margin:28px 0px 10px 0px;}
+		img.imgM{ width:47px; height:38px; margin:11px 0px 15px -3px;}
+		div.gra{ box-shadow:2px 0px 4px 0px #DDDDDD; border:1px solid #CCC;
+		background: #fcfcfc; /* Old browsers */
+		background: -moz-linear-gradient(top, #fcfcfc 0%, #ededed 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #fcfcfc 0%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #fcfcfc 0%,#ededed 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #fcfcfc 0%,#ededed 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #fcfcfc 0%,#ededed 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */}
+		
+		div.download_link{ margin-left:11px; float:left ;border:1px solid #DDDDDD ; border-radius: 4px 4px 4px 4px ; margin-top:15px; background:none repeat scroll 0 0 #F2F2F2}
+		div.download_link{ width:308px; margin-left:11px; float:left ;border:1px solid #DDDDDD ; border-radius: 4px 4px 4px 4px ; margin-top:15px; background:none repeat scroll 0 0 #F2F2F2}
+		div.download_link_head{ margin:-1px; border-radius: 4px 4px 4px 4px ; background:url("http://i1.trstatic.com/images/201101/bkg-hed-2.gif") repeat-x scroll 0 0 #224364; line-height:32px; padding-bottom:8px; font-size:24px; color:#E8EDF0; text-shadow:0 -2px 2px #0D1A26;}
+		
+		
+		
+		div.download_link_body ul{ padding:0px; margin:0px;}
+		div.download_link_body ul li{ background:url(..//img/1348310188_web-browser.png) no-repeat scroll 0 0 transparent; border-bottom:1px solid #C1C1C1; height:30px; text-align:left; padding-left:40px; list-style:none; margin:7px 16px 2px 20px;}
+		div.download_link_body_down ul li { background:url(..//img/note_download.png) no-repeat scroll 0 0 transparent; }
+		div.download_link_body ul li a{ font-size:84% ; text-shadow:0 1px 0 #FFFFFF ; color:#003399; text-decoration:none;}
+		
+		
+		div.download_link_body ul li a:hover{ text-decoration:underline; color:#FE592D;}
+		div.download_link_body ul li a:hover{ text-decoration:underline; color:#FE592D;}
+		div.ebook, div.information{ width:283px; margin-right:4px; height:83px; box-shadow:0px -1px 6px 2px #DDDDDD; margin-top:15px;}
+		
+		
+		div.information img{width:174px; height:55px; margin:17px;}
+		div.ebook img{width:140px; height:65px; margin:11px;}
+		div.text{ font-size:14px; margin:0px 8px 0px 8px; text-shadow:0 -2px 1px #C1C1C1;}
+		div.textM{ font-size:16px;  margin:-17px 8px 0px 8px;}
+		div.text{border:1px solid #CCCCCC;}
+		div.footer{ background:#121213; width:1020px ; box-shadow:0 0 12px #000000;}
+		div.footerSub{ margin:15px 0 22px 36px; float:left; width:174px; color:white; text-align:left; font-size:10px; border-right:1px dotted;}
+		div.footer_3{ background:#09F;}
+		div.footerSub ul { margin:0px ;  padding:0px;}
+		div.footerSub ul li { list-style:none; font-size:15px; }
+		div.footerSub ul li a{ text-decoration:none; color:#ffffff;}
+		div.footerSub ul li ul { padding:0px; margin:0px 0px 0px 10px;}
+		div.footerSub ul li ul li{ list-style:none; }
+		div.footerSub ul li ul li a{ text-decoration:none; color:#ffffff;}
+		div.footersubFirst { width:90px;}
+		div.footersubSecond { width:133px;}
+		
+		div.footerFirst { color:yellow; font-size:24px; text-align:left; padding-top:10px;}
+		
+		div.footerCopyright { margin-left:20px; float:left; margin-top:-35px; color:#FFF; }
+		div.footerSubText {}
+		div.footerSubLogoText{ width:320px; float:left; color:#FFF; text-align:right; margin-top:40px;}
+		div.footerSubLogo{ float:left;}
+		div.footerSubLogo img{ width:120px;}
+		div.footerSubLogoText a{ text-decoration:none; color:#FFF}
+		div.footerSubLogoText a:hover{ text-decoration:underline;} 
+        div.footer_school{ border-top:1px dotted #FFF; padding:10px 0px 10px 0px; color:#FFF; font-size:12px;}
+		div.footer_school a{ text-decoration:none; color:#FFF}
+		div.footer_school a:hover{ text-decoration:underline;} 
+		div.butt a{ text-decoration:none; color:#000;}
+		div#sub_menu_8{left:411px;}
+		div#sub_menu_8 ul li{border-bottom:3px solid #F96311;margin-left:-3px; }
+		div#sub_menu_8 ul li:hover{ background:#F96311;}
+		div#sub_menu_9{left:411px; top:220px;}
+		div#sub_menu_9 ul li{border-bottom:3px solid #F96311;}
+		div#sub_menu_9 ul li:hover{ background:#F96311;}
+		
+		div.body_button a{ color:#000; text-decoration:none;}
+		
+		
+		table.person{
+					font-family: verdana,arial,sans-serif;
+					font-size:15px;
+					color:#333333;
+					border-width: 1px;
+					border-color: #666666;
+					border-collapse: collapse;
+					 width:645px;}
+		table.person th{
+						font-weight:normal;
+						font-size:20px;
+						border-width: 1px;
+						padding: 15px;
+						text-align:center;
+						border:1px solid #CCCCCC;
+						border:1px solid #CCC;
+						background: #fcfcfc; 
+						background: -moz-linear-gradient(top, #fcfcfc 0%, #ededed 100%); 
+						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#ededed)); 
+						background: -webkit-linear-gradient(top, #fcfcfc 0%,#ededed 100%); 
+						background: -o-linear-gradient(top, #fcfcfc 0%,#ededed 100%); 
+						background: -ms-linear-gradient(top, #fcfcfc 0%,#ededed 100%); 
+						background: linear-gradient(to bottom, #fcfcfc 0%,#ededed 100%); 
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); 
+						}
+		table.person td{ 
+						border-width: 1px;
+						padding: 8px;
+						border:1px solid #CCCCCC;
+						background-color: #ffffff;
+						text-align:center;
+						}
